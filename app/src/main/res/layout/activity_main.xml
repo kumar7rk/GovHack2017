@@ -8,20 +8,20 @@
     tools:context="com.geeky7.rohit.govhack2017.MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/guest"
         style="@android:style/Widget.Button"
         android:layout_width="260dp"
         android:layout_height="35dp"
-        android:text="I am a guest"
+        android:text="@string/guest"
         tools:layout_editor_absoluteX="55dp"
         tools:layout_editor_absoluteY="155dp" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/host"
         style="@android:style/Widget.Button"
         android:layout_width="260dp"
         android:layout_height="35dp"
-        android:text="I am a host"
+        android:text="@string/host"
         tools:layout_editor_absoluteX="55dp"
         tools:layout_editor_absoluteY="256dp" />
 

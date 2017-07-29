@@ -1,13 +1,28 @@
 package com.geeky7.rohit.govhack2017;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+import com.google.android.gms.maps.GoogleMap;
+
+public class MainActivity extends Activity {
+
+    private GoogleMap mMap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.map_screen1);
+        setContentView(R.layout.activity_main);
+        Button guest = (Button)findViewById(R.id.guest);
+        Button host = (Button)findViewById(R.id.host);
+        guest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
     }
+
 }
