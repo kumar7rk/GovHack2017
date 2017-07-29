@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.geeky7.rohit.govhack2017.MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        style="@android:style/Widget.Button"
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:text="I am a guest"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@android:style/Widget.Button"
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:text="I am a host"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+</android.support.constraint.ConstraintLayout>
