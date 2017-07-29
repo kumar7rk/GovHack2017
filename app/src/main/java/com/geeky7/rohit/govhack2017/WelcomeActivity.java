@@ -11,7 +11,11 @@ public class WelcomeActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.welcome_screen);
         Intent intent = new Intent(this,MapsActivity.class);
-        Thread.sleep(1000);
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         startActivity(intent);
         finish();
     }
