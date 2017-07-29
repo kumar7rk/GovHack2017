@@ -11,6 +11,7 @@ public class WelcomeActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.welcome_screen);
         Intent intent = new Intent(this,MapsActivity.class);
+        Thread.sleep(1000);
         startActivity(intent);
         finish();
     }
