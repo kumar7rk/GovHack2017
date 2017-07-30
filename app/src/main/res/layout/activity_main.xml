@@ -7,22 +7,20 @@
     android:layout_height="match_parent"
     tools:context="com.geeky7.rohit.govhack2017.MainActivity">
 
-    <Button
-        android:id="@+id/button"
-        style="@android:style/Widget.Button"
-        android:layout_width="260dp"
-        android:layout_height="35dp"
-        android:text="I am a guest"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="155dp" />
 
     <Button
-        android:id="@+id/button3"
-        style="@android:style/Widget.Button"
-        android:layout_width="260dp"
-        android:layout_height="35dp"
-        android:text="I am a host"
-        tools:layout_editor_absoluteX="55dp"
-        tools:layout_editor_absoluteY="256dp" />
+        android:id="@+id/guest"
+        android:layout_width="221dp"
+        android:layout_height="68dp"
+        android:text="@string/guest"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="157dp" />
 
+    <Button
+        android:id="@+id/host"
+        android:layout_width="221dp"
+        android:layout_height="60dp"
+        android:text="@string/host"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="279dp" />
 </android.support.constraint.ConstraintLayout>
