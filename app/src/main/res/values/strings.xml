@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">GovHack2017</string>
-    <string name="host">I am a host</string>
-    <string name="guest">I am a guest</string>
+    <string name="host">I am a host with a spare room</string>
+    <string name="guest">I am a guest looking for a room</string>
+    <string name="info">Let us show you some information.</string>
+    <string name="welcome">Welcome</string>
 </resources>
